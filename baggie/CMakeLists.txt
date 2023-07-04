@@ -46,11 +46,11 @@ install(
 
 install(
   PROGRAMS
-    scripts/filter
-    scripts/join
-    scripts/split
-    scripts/timeline
-  DESTINATION lib/${PROJECT_NAME}/
+    scripts/filter.py
+    scripts/join.py
+    scripts/split.py
+    scripts/timeline.py
+  DESTINATION lib/${PROJECT_NAME}
   )
 
 ##########

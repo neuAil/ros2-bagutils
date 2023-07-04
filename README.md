@@ -2,6 +2,11 @@ ros2-bagutils
 =============
 This repository contains packages for working with bag files in ROS 2.
 
+## Dependencies
+```
+sudo apt install ament-cmake-nose
+```
+
 baggie
 ------
 The `baggie` package provides a Python wrapper around the [C++ rosbag2
